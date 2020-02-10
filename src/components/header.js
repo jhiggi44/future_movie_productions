@@ -1,23 +1,14 @@
-import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
 import HeaderLogo from "./header_logo"
+import HeaderTitle from "./header_title"
 
 const Header = ({ siteTitle }) => (
-  <header className="m-0 bg-gray-500 container mx-auto p-2">
-    <div className="flex flex-row items-center justify-center bg-gray-300 h-24">
-      <Link
-        style={{
-          maxHeight: `100%`,
-          maxWidth: `120px`,
-          objectFit: `contain`,
-        }}
-        to="/"
-      >
-        <HeaderLogo />
-      </Link>
-      <div className="text-4xl tracking-widest ml-8">{siteTitle}</div>
+  <header className="m-0 container mx-auto z-10 relative">
+    <div className="flex flex-row items-center justify-center h-24 sm:justify-start">
+      <HeaderLogo />
+      <HeaderTitle title={siteTitle} />
     </div>
   </header>
 )
