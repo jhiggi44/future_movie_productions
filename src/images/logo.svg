@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="11.93 -20.228 651.018 500" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <linearGradient id="gradient-0" gradientUnits="userSpaceOnUse" x1="430.248" y1="45.327" x2="430.248" y2="401.497" gradientTransform="matrix(0.750653, 0.660697, -0.35988, 0.408879, 171.121391, -115.979538)">
+      <stop offset="0" style="stop-color: rgba(255, 237, 146, 1)"/>
+      <stop offset="1" style="stop-color: rgba(255, 220, 44, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-1" gradientUnits="userSpaceOnUse" x1="137.917" y1="260.57" x2="137.917" y2="412.309" gradientTransform="matrix(0.476238, 0.879317, -0.653397, 0.353879, 244.151596, 136.457443)">
+      <stop offset="0" style="stop-color: rgba(228, 182, 55, 1)"/>
+      <stop offset="1" style="stop-color: rgba(160, 123, 22, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-3" gradientUnits="userSpaceOnUse" x1="254.862" y1="481.516" x2="254.862" y2="761.92" gradientTransform="matrix(1.049782, -0.039211, 0.026469, 0.708648, 325.002563, 365.234528)">
+      <stop offset="0" style="stop-color: #bada55"/>
+      <stop offset="1" style="stop-color: #758d29"/>
+    </linearGradient>
+    <linearGradient id="gradient-4" gradientUnits="userSpaceOnUse" x1="209.436" y1="395.693" x2="209.436" y2="626.118" gradientTransform="matrix(0.93611, -0.190609, 0.130555, 0.641173, -47.636547, 164.225113)">
+      <stop offset="0" style="stop-color: rgba(187, 218, 85, 1)"/>
+      <stop offset="1" style="stop-color: rgba(135, 165, 36, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-5" gradientUnits="userSpaceOnUse" x1="209.436" y1="395.693" x2="209.436" y2="626.118" gradientTransform="matrix(0.464785, 0.834631, -0.583208, 0.324775, 361.398909, 245.408503)">
+      <stop offset="0" style="stop-color: rgba(236, 77, 77, 1)"/>
+      <stop offset="1" style="stop-color: rgba(191, 20, 20, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-6" gradientUnits="userSpaceOnUse" x1="254.862" y1="481.516" x2="254.862" y2="761.92" gradientTransform="matrix(0.434831, 0.956296, -0.902183, 0.410225, 714.18042, 210.038803)">
+      <stop offset="0" style="stop-color: rgba(82, 144, 225, 1)"/>
+      <stop offset="1" style="stop-color: rgba(30, 93, 175, 1)"/>
+    </linearGradient>
+    <linearGradient id="gradient-7" gradientUnits="userSpaceOnUse" x1="360.564" y1="44.07" x2="360.564" y2="401.579" gradientTransform="matrix(0.921244, 0.388986, -0.242372, 0.574014, 41.604849, -56.138142)">
+      <stop offset="0" style="stop-color: rgba(97, 44, 130, 1)"/>
+      <stop offset="1" style="stop-color: rgba(40, 18, 54, 1)"/>
+    </linearGradient>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, -16.243866, 7.711324)">
+    <circle style="fill: url(#gradient-0);" cx="430.785" cy="211.268" r="178.085"/>
+    <path d="M 425.815 389.435 C 327.091 389.435 247.06 309.404 247.06 210.681 C 247.06 111.957 327.091 31.926 425.815 31.926 C 442.925 31.926 459.475 34.33 475.142 38.819 C 384.693 47.673 314.016 123.94 314.016 216.715 C 314.016 298.328 368.709 367.167 443.443 388.577 C 437.644 389.145 431.764 389.435 425.815 389.435 Z" style="fill: url(#gradient-7);"/>
+  </g>
+  <path d="M 120.522 265.505 Q 125.434 255.635 131.919 265.505 L 221.888 402.439 Q 228.373 412.309 216.976 412.309 L 58.858 412.309 Q 47.461 412.309 52.373 402.439 Z" style="fill: url(#gradient-1);" transform="matrix(1, -0.000608, 0.000608, 1, 368.968445, 27.778854)" bx:shape="triangle 47.461 255.635 180.912 156.674 0.431 0.063 1@16403bf2"/>
+  <path d="M 174.597 385.172 Q 181.707 370.853 191.132 385.172 L 321.879 583.823 Q 331.304 598.142 314.77 598.142 L 85.387 598.142 Q 68.853 598.142 75.963 583.823 Z" style="stroke: url(#gradient-4); stroke-width: 0px; fill: url(#gradient-5);" transform="matrix(1, -0.000608, 0.000608, 1, 173.239838, -157.802429)" bx:shape="triangle 68.853 370.853 262.451 227.289 0.43 0.063 1@1413b9da"/>
+  <path d="M 247.129 515.42 Q 257.55 496.259 269.255 515.42 L 431.631 781.247 Q 443.335 800.408 421.209 800.408 L 114.261 800.408 Q 92.135 800.408 102.556 781.247 Z" style="stroke: url(#gradient-3); stroke-width: 0px; paint-order: stroke; fill: url(#gradient-6);" transform="matrix(1, -0.000608, 0.000608, 1, -48.592972, -359.919434)" bx:shape="triangle 92.135 496.259 351.2 304.149 0.471 0.063 1@be8f2076"/>
+</svg>
