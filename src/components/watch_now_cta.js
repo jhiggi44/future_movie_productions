@@ -1,15 +1,19 @@
 import React from "react"
 
-function WatchNowCTA({ href, text, color }) {
+function WatchNowCTA({ href, text, textColor, borderColor, backgroundColor }) {
   return (
-    <div
-      style={{ color: color, borderColor: color }}
-      className="text-4xl inline border-solid border-4 px-4 my-12 rounded-s mx-auto"
-    >
-      <a href={href} target="_blank" className="no-underline">
+    <a href={href} target="_blank" className="no-underline w-full">
+      <div
+        style={{
+          border: `5px solid ${borderColor}`,
+          backgroundColor: backgroundColor,
+          color: textColor,
+        }}
+        className="text-3xl text-center px-8 py-2 rounded-sm mx-auto"
+      >
         {text}
-      </a>
-    </div>
+      </div>
+    </a>
   )
 }
 

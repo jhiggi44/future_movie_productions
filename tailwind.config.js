@@ -34,11 +34,17 @@ module.exports = {
       margin: {
         jtron: "-8rem",
       },
+      height: {
+        jtron: "calc(100vh + 2rem)",
+      },
       maxHeight: {
         laurel: "120px",
       },
       minHeight: {
         jtron: "800px",
+      },
+      maxWidth: {
+        card: "468px",
       },
     },
   },
