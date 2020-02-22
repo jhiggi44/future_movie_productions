@@ -1,19 +1,31 @@
 import React from "react"
 import WatchNowCTA from "./watch_now_cta"
-import ProjectGallery from "./project_gallery"
 
-function ProjectCard({ name, description, buttonTxt, href }) {
+function ProjectCard({
+  title,
+  description,
+  actionText,
+  href,
+  src,
+  textColor,
+  buttonColor,
+}) {
   return (
-    <div className="w-4/5 py-8 flex flex-col justify-center items-center">
-      <h3 className="text-6xl self-start">{name}</h3>
-      <ProjectGallery />
-      <div className="text-4xl mt-4">{description}</div>
-      <WatchNowCTA
-        href={href}
-        text={buttonTxt}
-        color="black"
-        className="flex-initial"
-      />
+    <div className="my-8 shadow-md max-w-card rounded-sm mx-8 sm:mx-0">
+      <img src={src} alt="image" className="rounded-sm" />
+      <div className="flex flex-col items-center">
+        <div className="p-4">
+          <div className="text-5xl mb-2">{title}</div>
+          <div className="text-3xl">{description}</div>
+        </div>
+        <WatchNowCTA
+          href={href}
+          text={actionText}
+          textColor={textColor}
+          borderColor={buttonColor}
+          backgroundColor={buttonColor}
+        />
+      </div>
     </div>
   )
 }
