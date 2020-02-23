@@ -14,7 +14,7 @@ function Jumbotron() {
         className="absolute container h-full h-100 left-0 bottom-0 z-10 mt-64"
         style={{
           backgroundImage:
-            "linear-gradient(to bottom, rgb(76,81,191,.4) 5%, black 95%)",
+            "linear-gradient(to bottom, rgb(12,24,24,.4) 5%, black 95%)",
         }}
       >
         <div className="flex h-full flex-col justify-end items-center">

@@ -35,10 +35,11 @@ module.exports = {
         jtron: "-8rem",
       },
       height: {
-        jtron: "calc(100vh + 2rem)",
+        jtron: "calc(100vh - 80px)",
       },
       maxHeight: {
         laurel: "120px",
+        "laurel-sm": "88px"
       },
       minHeight: {
         jtron: "800px",
