@@ -36,16 +36,19 @@ module.exports = {
       },
       height: {
         jtron: "calc(100vh - 80px)",
+        "card-details": "356px"
       },
       maxHeight: {
         laurel: "120px",
-        "laurel-sm": "88px"
+        "laurel-sm": "88px",
+        poster: "364px"
       },
       minHeight: {
         jtron: "800px",
       },
       maxWidth: {
-        card: "468px",
+        card: "532px",
+        poster: "196px"
       },
     },
   },
