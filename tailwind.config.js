@@ -25,21 +25,17 @@ module.exports = {
     },
     extend: {
       maxHeight: {
-        icon: "5rem",
-        "poster": "248px",
-        "poster-sm": "100%"
+        icon: "5rem"
       },
       width: {
         "2/7": "28%"
       },
       height: {
-        "video-lg": "24rem",
-        "video": "12rem"
+        "video-lg": "240px",
+        "video": "180px"
       },
       maxWidth: {
         icon: "5rem",
-        "poster": "248px",
-        "poster-sm": "100%"
       },
       minWidth: {
         "card": "182px"

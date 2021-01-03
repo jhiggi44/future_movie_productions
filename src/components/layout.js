@@ -1,28 +1,15 @@
 import React from "react"
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 
-import Header from "./header"
-import Footer from "./footer"
+import Footer from "../components/footer"
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div className="container mx-auto relative ">
+      <div className="w-full mx-auto relative overscroll-scroll">
         <main>{children}</main>
+        <Footer />
       </div>
-      <Footer />
     </>
   )
 }

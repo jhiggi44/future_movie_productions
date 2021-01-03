@@ -15,7 +15,7 @@ const Summary = ({children}) => (
 
 function TrailerLayout({ project, children }) {
   return (
-    <div className="flex flex-col max-w-screen-md overflow-hidden items-center md:items-start mx-auto">
+    <div className="w-full" >
       <Link to={ convertTitleToPath(project.title) }>
         <h2 className="text-2xl font-extrabold sm:text-4xl mt-8">{ `${project.title} (${project.yearOfRelease})` }</h2>
       </Link>
@@ -35,7 +35,7 @@ function TrailerLayout({ project, children }) {
 
       { children }
 
-      <iframe className="mt-4 w-11/12 h-video rounded-sm max-w-screen-md sm:h-video-lg" src={ project.trailerEmbed }></iframe>
+      <iframe src={ project.trailerEmbed }></iframe>
     </div>
   )
 }
