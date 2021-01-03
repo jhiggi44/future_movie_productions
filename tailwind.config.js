@@ -1,17 +1,10 @@
 module.exports = {
   theme: {
     screens: {
-      sm: { max: "639px" },
-      // => @media (max-width: 639px) { ... }
-
-      md: { max: "767px" },
-      // => @media (max-width: 767px) { ... }
-
-      lg: { max: "1023px" },
-      // => @media (max-width: 1023px) { ... }
-
-      xl: { max: "1279px" },
-      // => @media (max-width: 1279px) { ... }
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px"
     },
     fontSize: {
       xs: ".75rem",
@@ -27,29 +20,30 @@ module.exports = {
       "7xl": "5rem",
     },
     fontFamily: {
-      sans: ["Roboto", "sans-serif"],
+      sans: ["Montserrat", "sans-serif"],
       serif: ["Merriweather", "serif"],
     },
     extend: {
-      margin: {
-        jtron: "-8rem",
+      maxHeight: {
+        icon: "5rem",
+        "poster": "248px",
+        "poster-sm": "100%"
+      },
+      width: {
+        "2/7": "28%"
       },
       height: {
-        jtron: "calc(100vh - 80px)",
-        "card-details": "356px"
-      },
-      maxHeight: {
-        laurel: "120px",
-        "laurel-sm": "88px",
-        poster: "364px"
-      },
-      minHeight: {
-        jtron: "800px",
+        "video-lg": "24rem",
+        "video": "12rem"
       },
       maxWidth: {
-        card: "532px",
-        poster: "196px"
+        icon: "5rem",
+        "poster": "248px",
+        "poster-sm": "100%"
       },
+      minWidth: {
+        "card": "182px"
+      }
     },
   },
   variants: {},

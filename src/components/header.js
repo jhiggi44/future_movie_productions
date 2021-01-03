@@ -1,20 +1,9 @@
-import PropTypes from "prop-types"
 import React from "react"
 
-import HeaderLogo from "./header_logo"
-import HeaderTitle from "./header_title"
-
-const Header = ({ siteTitle }) => (
-  <header className="m-0 container mx-auto z-20 relative">
-    <div className="flex flex-row items-center justify-center h-24 sm:justify-start">
-      <HeaderLogo />
-      <HeaderTitle title={siteTitle} />
-    </div>
-  </header>
-)
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
+function Header({text}) {
+  return (
+    <h2 className="font-extrabold text-4xl sm:text-5xl md:text-6xl">{text}</h2>
+  )
 }
 
 export default Header
