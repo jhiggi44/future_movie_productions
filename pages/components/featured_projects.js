@@ -1,9 +1,9 @@
+import InfoField from "./info_field.js"
+
 function convertTitleToPath(title) {
     return title.toLowerCase().split(" ").join("-");
   }
   
-const InfoField = ({header, info}) => <p><span>{ header }: </span>{ info }</p>
-
 const Summary = ({children}) => <p>{ children }</p>
 
 function TrailerLayout({ project, children }) {
