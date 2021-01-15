@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import FeaturedProjects from './components/featured_projects'
+import FeaturedProjects from './components/featured_projects/entry'
 import projects from './data.js'
 
 // TODO: create a route for all_projects
