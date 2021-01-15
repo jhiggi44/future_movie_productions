@@ -1,8 +1,13 @@
 import styled from 'styled-components'
+import devices from '../devices'
 
 const Text = styled.p`
-  font-size: 1.1rem;
   font-style: italic;
+  font-size: 1.2rem;
+
+  @media ${devices.md} {
+    font-size: 1.4rem;
+  }
 `;
 
 const Summary = ({children}) => <Text>{ children }</Text>
