@@ -1,10 +1,10 @@
-import InfoField from "./info_field.js"
+import InfoField from './info_field'
+import Summary from './summary'
 
 function convertTitleToPath(title) {
     return title.toLowerCase().split(" ").join("-");
-  }
+}
   
-const Summary = ({children}) => <p>{ children }</p>
 
 function TrailerLayout({ project, children }) {
     return (
