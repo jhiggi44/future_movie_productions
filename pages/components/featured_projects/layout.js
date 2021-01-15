@@ -1,5 +1,6 @@
 import InfoField from './info_field'
 import Summary from './summary'
+import Header from '../styled_elements/header'
 import SectionContainer from '../section_container'
 
 function convertTitleToPath(title) {
@@ -11,7 +12,7 @@ function Layout({ project, children }) {
     return (
         <SectionContainer>
           <a>
-              <h2>{ `${project.title} (${project.yearOfRelease})` }</h2>
+              <Header>{ `${project.title} (${project.yearOfRelease})` }</Header>
           </a>
           <Summary>{ project.summary }</Summary>
           <InfoField 
