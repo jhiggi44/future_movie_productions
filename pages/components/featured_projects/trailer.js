@@ -5,6 +5,8 @@ const Frame = styled.iframe`
   width: 100%;
   height: 292px;
   margin: 16px 0;
+  border: none;
+  border-radius: 4px;
 
   @media ${devices.sm} {
     height: 348px;
