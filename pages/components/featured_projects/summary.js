@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import devices from '../devices'
+import devices from '../../../utils/devices'
 
 const Text = styled.p`
   font-style: italic;

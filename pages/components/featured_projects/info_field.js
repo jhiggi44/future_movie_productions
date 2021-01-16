@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import devices from '../devices'
+import devices from '../../../utils/devices'
 
 const Field = styled.p`
   margin: 8px 0;

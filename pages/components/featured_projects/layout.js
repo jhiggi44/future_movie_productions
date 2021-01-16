@@ -1,28 +1,8 @@
-import styled from 'styled-components'
-import devices from '../devices'
-
 import InfoField from './info_field'
 import Summary from './summary'
 import Header from '../styled_elements/header'
 import SectionContainer from '../section_container'
-
-const Trailer = styled.iframe`
-  width: 100%;
-  height: 292px;
-  margin: 16px 0;
-
-  @media ${devices.sm} {
-    height: 348px;
-  }
-
-  @media ${devices.md} {
-    height: 424px;
-  }
-
-  @media ${devices.lg} {
-    height: 518px;
-  }
-`;
+import Trailer from './trailer'
 
 function convertTitleToPath(title) {
     return title.toLowerCase().split(" ").join("-");

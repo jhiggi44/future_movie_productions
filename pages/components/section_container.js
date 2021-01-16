@@ -2,8 +2,8 @@ import styled from 'styled-components'
 
 const Section = styled.section`
   max-width: 991px;
-  padding: 0 28px;
-  margin: 24px auto;
+  padding: 28px;
+  margin: 0 auto;
 `;
 
 const SectionContainer = ({ children }) => (

@@ -1,5 +1,5 @@
 const projects = {
-    mabelAndGeorge: {
+    mabel: {
         title: "Mabel and George",
         summary: "A gregarious husband re-enacts a moment in time with his beloved wife, who suffers from dementia.",
         director: "Nathan Steve Smith",

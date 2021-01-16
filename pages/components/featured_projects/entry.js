@@ -1,13 +1,15 @@
-import Layout from "./layout";
+import projects from '../../data'
+import Layout from './layout';
+import TiltedSectionContainer from './tilted_section_container'
 
-function Entry({ projects }) {
+function Entry() {
     return(
         <div>
-            { 
-                projects.map(project => 
-                    <Layout key={project.title} project={project} />
-                )
-            }
+            <Layout project={ projects["mabel"] } />
+            <TiltedSectionContainer>
+                <Layout project={ projects["thistlewits"] } />
+            </TiltedSectionContainer>
+            <Layout project={ projects["lucyShimmers"] } />
         </div>
     )
 }
