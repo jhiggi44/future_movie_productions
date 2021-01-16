@@ -26,45 +26,45 @@ const TransitionContainer = styled.div`
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
+  transform: rotate(${props => props.rotation}deg);
 `;
 
 const TransitionSVG = styled.svg`
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 82px;
-  transform: rotateY(180deg);
+  height: 42px;
+  transform: rotateY(${props => props.rotation}deg);
 `;
 
-const TransitionTop = () => {
+const TransitionTop = ({ backgroundColor }) => {
   return (
-    <TransitionContainer>
-        <TransitionSVG dataName="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill="#002E9E"></path>
+    <TransitionContainer rotation="180">
+        <TransitionSVG rotation="180" dataName="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill={ backgroundColor }></path>
         </TransitionSVG>
     </TransitionContainer>
   )
 }
 
-const TransitionBottom = () => {
+const TransitionBottom = ({ backgroundColor }) => {
   return (
-    <div className="custom-shape-divider-top-1610755106">
-        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
-        </svg>
-    </div>
+    <TransitionContainer rotation="0" >
+        <TransitionSVG rotation="0" dataName="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" fill={ backgroundColor }></path>
+        </TransitionSVG>
+    </TransitionContainer>
   )
 }
 
-function TiltedSectionContainer({ children }) {
+function TiltedSectionContainer({ backgroundColor, children }) {
   return (
     <div>
-      <TransitionTop />
-      <div style={{ backgroundColor: "#002E9E", color: "white" }} >
+      <TransitionTop backgroundColor={ backgroundColor } />
+      <div style={{ backgroundColor: backgroundColor, color: "white" }} >
         { children }
       </div>
-      <TransitionBottom />
+      <TransitionBottom backgroundColor={ backgroundColor } />
     </div>
   )
 }

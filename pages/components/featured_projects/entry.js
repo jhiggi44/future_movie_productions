@@ -6,7 +6,7 @@ function Entry() {
     return(
         <div>
             <Layout project={ projects["mabel"] } />
-            <TiltedSectionContainer>
+            <TiltedSectionContainer backgroundColor="#17489E">
                 <Layout project={ projects["thistlewits"] } />
             </TiltedSectionContainer>
             <Layout project={ projects["lucyShimmers"] } />
