@@ -3,12 +3,7 @@ import Summary from './summary'
 import Header from '../styled_elements/header'
 import SectionContainer from '../section_container'
 import Trailer from './trailer'
-
-function convertTitleToPath(title) {
-    return title.toLowerCase().split(" ").join("-");
-}
   
-
 function Layout({ project, children }) {
     return (
         <SectionContainer>

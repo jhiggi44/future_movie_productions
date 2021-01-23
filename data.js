@@ -30,7 +30,7 @@ const projects = {
         trailerLink: "https://www.youtube.com/watch?v=yRrPkfvINH0",
         trailerEmbed: "https://www.youtube.com/embed/yRrPkfvINH0"
     },
-    fatherKeeper: {
+    father: {
         title: "Our Father's Keeper",
         summary: "Our Father's Keeper is a story that tests the limits of a family when tragedy strikes, but it's a film that encourages viewers to grow in love and understanding for one another.",
         director: "Rob Diamond",
@@ -48,7 +48,7 @@ const projects = {
         trailerLink: "https://www.youtube.com/watch?v=0eujtj9rEQ0",
         trailerEmbed: "https://www.youtube.com/embed/0eujtj9rEQ0"
     },
-    lucyShimmers: {
+    lucy: {
         title: "Lucy Shimmers and the Prince of Peace",
         summary: "Second chances start when a hardened criminal crosses paths with a precocious little girl who is helped by an angel to change hearts during the holiday season.",
         director: "Rob Diamond",
@@ -65,7 +65,7 @@ const projects = {
         trailerLink: "https://www.youtube.com/watch?v=bu2yPlLTfZ8",
         trailerEmbed: "https://www.youtube.com/embed/bu2yPlLTfZ8"
     },
-    twiceUponASong: {
+    twice: {
         title: "Twice Upon a Song (Even in Dreams?)",
         director: "Savannah Ostler",
         writers: [
