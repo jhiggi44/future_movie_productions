@@ -46,7 +46,8 @@ const projects = {
         yearOfRelease: "2021",
         imdbLink: "https://www.imdb.com/title/tt9354118/?ref_=fn_al_tt_1",
         trailerLink: "https://www.youtube.com/watch?v=0eujtj9rEQ0",
-        trailerEmbed: "https://www.youtube.com/embed/0eujtj9rEQ0"
+        trailerEmbed: "https://www.youtube.com/embed/0eujtj9rEQ0",
+        poster_relative_path: "/posters/fathers_keeper.png"
     },
     lucy: {
         title: "Lucy Shimmers and the Prince of Peace",
@@ -63,10 +64,11 @@ const projects = {
         yearOfRelease: "2020",
         imdbLink: "https://www.imdb.com/title/tt11916254/?ref_=nv_sr_srsg_0",
         trailerLink: "https://www.youtube.com/watch?v=bu2yPlLTfZ8",
-        trailerEmbed: "https://www.youtube.com/embed/bu2yPlLTfZ8"
+        trailerEmbed: "https://www.youtube.com/embed/bu2yPlLTfZ8",
+        poster_relative_path: "/posters/lucy_shimmers.png"
     },
     twice: {
-        title: "Twice Upon a Song (Even in Dreams?)",
+        title: "Twice Upon a Song",
         director: "Savannah Ostler",
         writers: [
             "Savannah Ostler"
@@ -77,7 +79,8 @@ const projects = {
             "James Gaisford"
         ],
         imdbLink: "https://www.imdb.com/title/tt11827282/",
-        yearOfRelease: "2021"
+        yearOfRelease: "2021",
+        poster_relative_path: "/posters/twice_a_song.png"
     }
 };
 
