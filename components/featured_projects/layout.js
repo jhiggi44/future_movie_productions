@@ -4,9 +4,9 @@ import Header from '../styled_elements/header'
 import SectionContainer from '../section_container'
 import Trailer from './trailer'
   
-function Layout({ project, children }) {
+function Layout({ project, backgroundColor, backgroundImage, children }) {
     return (
-        <SectionContainer>
+        <SectionContainer backgroundColor={backgroundColor} backgroundImage={backgroundImage} >
           <a>
               <Header>{ `${project.title} (${project.yearOfRelease})` }</Header>
           </a>

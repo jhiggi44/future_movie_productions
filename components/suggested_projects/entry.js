@@ -16,14 +16,14 @@ const FlexContainer = styled.div`
 
 const fetcher = (url) => fetch(url).then((res) => res.json())
 
-function Entry({ title, excluding }) {
+function Entry({ title, excluding, backgroundColor }) {
   const { data, error } = useSWR(`/api/projects?excluding=${excluding}`, fetcher)
 
   if (error) return <div>Failed to load</div>
   if (!data) return <div>Loading...</div>
 
   return(
-    <SectionContainer>
+    <SectionContainer backgroundColor={backgroundColor} textColor="white" >
       <Header>{ title }</Header>
       <FlexContainer>
         { data.map(project => <Card project={project} />) }
