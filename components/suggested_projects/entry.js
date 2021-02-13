@@ -26,7 +26,7 @@ function Entry({ title, excluding, backgroundColor }) {
     <SectionContainer backgroundColor={backgroundColor} textColor="white" >
       <Header>{ title }</Header>
       <FlexContainer>
-        { data.map(project => <Card project={project} />) }
+        { data.map(project => <Card key={project.tag} project={project} />) }
       </FlexContainer>
     </SectionContainer>
   )

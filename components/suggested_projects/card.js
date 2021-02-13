@@ -1,5 +1,6 @@
 import styled from 'styled-components' 
 import Image from 'next/image'
+import Link from 'next/link'
 
 const CardContainer = styled.div`
   margin: auto;
@@ -33,7 +34,9 @@ export default function Card({ project }) {
           width="312"
           height="468"
         />
-        <Button background="#EBDB0C" color="black">Learn More</Button>
+        <Link href={`/projects/${project.tag}`}>
+          <Button background="#EBDB0C" color="black">Learn More</Button>
+        </Link>
       </CardContent>
     </CardContainer>
   )

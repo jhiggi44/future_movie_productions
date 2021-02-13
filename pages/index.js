@@ -3,8 +3,6 @@ import FeaturedProjects from '../components/featured_projects/entry'
 import SuggestedProjects from '../components/suggested_projects/entry'
 import TiltedSectionContainer from '../components/featured_projects/tilted_section_container'
 
-// TODO: create a route for all_projects
-// TODO: create route for featured_projects
 export default function Home() {
   return (
     <Page title="Future Movie Production">

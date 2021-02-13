@@ -1,5 +1,6 @@
 const projects = {
     mabel: {
+        tag: "mabel",
         title: "Mabel and George",
         summary: "A gregarious husband re-enacts a moment in time with his beloved wife, who suffers from dementia.",
         director: "Nathan Steve Smith",
@@ -11,9 +12,11 @@ const projects = {
         ],
         yearOfRelease: "2021",
         trailerLink: "https://www.youtube.com/watch?v=PX0nwq5LuCQ",
-        trailerEmbed: "https://www.youtube.com/embed/PX0nwq5LuCQ"
+        trailerEmbed: "https://www.youtube.com/embed/PX0nwq5LuCQ",
+        poster_relative_path: "/posters/mabel.jpg"
     },
     thistlewits: {
+        tag: "thistlewits",
         title: "The Thistlewits",
         summary: "A story about a small town that is full of hate and anger and how one family makes a difference by putting plates of goodies and positive notes on people's doorsteps.",
         director: "Nathan Steve Smith",
@@ -28,9 +31,11 @@ const projects = {
         ],
         yearOfRelease: "2020",
         trailerLink: "https://www.youtube.com/watch?v=yRrPkfvINH0",
-        trailerEmbed: "https://www.youtube.com/embed/yRrPkfvINH0"
+        trailerEmbed: "https://www.youtube.com/embed/yRrPkfvINH0",
+        poster_relative_path: "/posters/thistlewits.png"
     },
     father: {
+        tag: "father",
         title: "Our Father's Keeper",
         summary: "Our Father's Keeper is a story that tests the limits of a family when tragedy strikes, but it's a film that encourages viewers to grow in love and understanding for one another.",
         director: "Rob Diamond",
@@ -50,6 +55,7 @@ const projects = {
         poster_relative_path: "/posters/fathers_keeper.png"
     },
     lucy: {
+        tag: "lucy",
         title: "Lucy Shimmers and the Prince of Peace",
         summary: "Second chances start when a hardened criminal crosses paths with a precocious little girl who is helped by an angel to change hearts during the holiday season.",
         director: "Rob Diamond",
@@ -68,6 +74,7 @@ const projects = {
         poster_relative_path: "/posters/lucy_shimmers.png"
     },
     twice: {
+        tag: "twice",
         title: "Twice Upon a Song",
         director: "Savannah Ostler",
         writers: [

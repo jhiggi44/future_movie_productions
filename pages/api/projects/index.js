@@ -23,7 +23,6 @@ function projectsNotIn(query) {
 }
 
 export default (req, res) => {
-
   let filteredProjects = projectsNotIn(req.query.excluding?.split(","));
   filteredProjects = onlyProjectsIn(req.query.only?.split(","), filteredProjects);
 
